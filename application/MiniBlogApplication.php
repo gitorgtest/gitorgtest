@@ -10,6 +10,7 @@ class MiniBlogApplication extends Application
     protected $login_action = array('account', 'signin');
     
     //コンストラクタ
+    //最初に呼ばれる
     public function getRootDir()
     {
         return dirname(__FILE__);

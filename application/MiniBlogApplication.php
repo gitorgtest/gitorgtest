@@ -8,7 +8,8 @@
 class MiniBlogApplication extends Application
 {
     protected $login_action = array('account', 'signin');
-
+    
+    //コンストラクタ
     public function getRootDir()
     {
         return dirname(__FILE__);
